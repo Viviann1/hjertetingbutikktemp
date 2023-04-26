@@ -18,19 +18,19 @@ export default function Home() {
         
 
         <div className="grid grid-cols-4 m-10 mt-10">
-          <Image src={img1} className='w-1/2 mt-10 border-2'
+          <Image src={img1} className='w-1/2 mt-10 border-4 border-white border-double'
                         width={435}
                         alt='Bilde av en bunke med sovemasker' />
 
-          <Image src={img2} className="w-1/2 mt-10 border-2" 
+          <Image src={img2} className="w-1/2 mt-10 border-4 border-white border-double" 
           width={435} 
           alt="Bilde av eric med kaningutt" />
 
-          <Image src={img3} className="w-1/2 mt-10 border-2" 
+          <Image src={img3} className="w-1/2 mt-10 border-4 border-white border-double" 
           width={435} 
           alt="Bilde av theo med pannebånd" />
           
-          <Image src={img4} className="w-1/2 mt-10 border-2" 
+          <Image src={img4} className="w-1/2 mt-10 border-4 border-white border-double" 
           width={435} 
           alt="Bilde av bunke med pannebånd" />
 
