@@ -14,7 +14,7 @@ export default function Home() {
     <main className={`flex min-h-screen items-center justify-center bg-red-200`}
     >
       <div>
-        <h1 className="text-5xl tracking-widest text-center text-gray-400">Her kommer snart Hjertetings nettbutikk</h1>
+        <h1 className="text-4xl tracking-widest text-center text-gray-400">Her kommer snart Hjertetings nettbutikk</h1>
         
 
         <div className="grid grid-cols-4 m-10 mt-10">
