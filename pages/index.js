@@ -7,12 +7,14 @@ import svg from "../public/images/needletreadgrey.png";
 
 
 
+
+
 export default function Home() {
   return (
     <main className={`flex min-h-screen items-center justify-center bg-red-200`}
     >
       <div>
-        <h1 className="ml-10 text-4xl tracking-widest text-center text-gray-400">Her kommer snart Hjertetings nettbutikk</h1>
+        <h1 className="text-5xl tracking-widest text-center text-gray-400">Her kommer snart Hjertetings nettbutikk</h1>
         
 
         <div className="grid grid-cols-4 m-10 mt-10">
@@ -38,7 +40,7 @@ export default function Home() {
                         width={435}
                         alt='svg naal og traad' />
 
-          <h2 className="mt-10 ml-10 tracking-widest text-center text-gray-400">handlaga for deg...</h2>
+          <h2 className="text-xl tracking-widest text-center text-gray-400">handlaga for deg...</h2>
       </div>
 
       
