@@ -20,7 +20,7 @@ export default function Home() {
         width={50}
         alt="stort hjerte illustrasjon" />
 
-        <div className="grid grid-cols-4 mt-4 place-items-center">
+        <div className="grid grid-cols-1 mt-4 place-items-center sm:grid-cols-2 lg:grid-cols-4">
           <Image src={img1} className='w-1/2 mt-6 border-4 border-white border-double'
                         width={435}
                         alt='Bilde av en bunke med sovemasker' />
@@ -39,11 +39,11 @@ export default function Home() {
 
         </div>
 
-        <Image src={svg} className='w-1/2 mx-auto mt-10'
+        <Image src={svg} className='w-4/5 mx-auto mt-10 lg:w-1/2'
                         width={435}
                         alt='svg naal og traad' />
 
-          <h2 className="text-xl tracking-widest text-center text-gray-400">handlaga for deg...</h2>
+          <h2 className="text-base tracking-widest text-center text-gray-400 md:text-xl lg:text-2xl">handlaga for deg...</h2>
       </div>
 
       
