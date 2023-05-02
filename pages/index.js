@@ -3,7 +3,7 @@ import img1 from "../public/images/sovemasker.jpg";
 import img2 from "../public/images/eric.jpg";
 import img3 from "../public/images/theo.jpg";
 import img4 from "../public/images/panneband.jpg";
-import svg from "../public/images/needletreadgrey.png";
+import needle from "../public/images/needletreadgrey.png"
 import svg2 from "../public/images/hjertestor.png";
 
 
@@ -39,7 +39,7 @@ export default function Home() {
 
         </div>
 
-        <Image src={svg} className='w-4/5 mx-auto mt-10 lg:w-1/2'
+        <Image src={needle} className='w-4/5 mx-auto mt-10 lg:w-1/2'
                         width={435}
                         alt='svg naal og traad' />
 
