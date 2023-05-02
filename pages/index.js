@@ -5,6 +5,7 @@ import img3 from "../public/images/theo.jpg";
 import img4 from "../public/images/panneband.jpg";
 import needle from "../public/images/Needletreadgrey.png"
 import svg2 from "../public/images/hjertestor.png";
+import Head from "next/head";
 
 
 
@@ -12,6 +13,13 @@ import svg2 from "../public/images/hjertestor.png";
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Hjerteting</title>
+      <meta name="description" content="Hjerteting - håndlaget for deg. 
+      Hjerteting er en nettbuikk med unike håndlagede produkter. Her finner du noe både til liten og stor. Utforsk kategoriene Småfolk, Bestevenner, Varm, Velvære og Pynt. Velkommen skal du være!"
+      />
+    </Head>
     <main className={`flex min-h-screen items-center bg-red-200`}
     >
       <div>
@@ -48,5 +56,6 @@ export default function Home() {
 
       
     </main>
+    </>
   )
 }
