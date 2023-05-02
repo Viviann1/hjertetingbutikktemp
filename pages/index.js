@@ -3,7 +3,7 @@ import img1 from "../public/images/sovemasker.jpg";
 import img2 from "../public/images/eric.jpg";
 import img3 from "../public/images/theo.jpg";
 import img4 from "../public/images/panneband.jpg";
-import needle from "../public/images/needletreadgrey.png"
+import needle from "../public/images/Needletreadgrey.png"
 import svg2 from "../public/images/hjertestor.png";
 
 
