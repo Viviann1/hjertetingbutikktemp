@@ -12,7 +12,7 @@ import svg2 from "../public/images/hjertestor.png";
 
 export default function Home() {
   return (
-    <main className={`flex min-h-screen items-center justify-center bg-red-200`}
+    <main className={`flex min-h-screen items-center bg-red-200`}
     >
       <div>
         <h1 className="mt-10 text-4xl tracking-widest text-center text-gray-400">Her kommer snart Hjertetings nettbutikk</h1>
@@ -20,7 +20,7 @@ export default function Home() {
         width={50}
         alt="stort hjerte illustrasjon" />
 
-        <div className="grid items-center grid-cols-4 m-10 mt-4 justify-self-center">
+        <div className="grid grid-cols-4 mt-4 place-items-center">
           <Image src={img1} className='w-1/2 mt-6 border-4 border-white border-double'
                         width={435}
                         alt='Bilde av en bunke med sovemasker' />
