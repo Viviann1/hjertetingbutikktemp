@@ -19,6 +19,10 @@ export default function Home() {
       <meta name="description" content="Hjerteting - håndlaget for deg. 
       Hjerteting er en nettbuikk med unike håndlagede produkter. Her finner du noe både til liten og stor. Utforsk kategoriene Småfolk, Bestevenner, Varm, Velvære og Pynt. Velkommen skal du være!"
       />
+      <meta 
+      property="og:image"
+      content="https://www.hjerteting.no/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsovemasker.7f24c615.jpg&w=640&q=75"
+      />
     </Head>
     <main className={`flex min-h-screen items-center bg-red-200`}
     >
