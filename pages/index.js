@@ -25,7 +25,7 @@ export default function Home() {
       content="https://www.hjerteting.no/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsovemasker.7f24c615.jpg&w=640&q=75"
       />
     </Head>
-    <main className={`flex min-h-screen items-center bg-red-200`}
+    <main className={`flex min-h-screen items-center bg-red-100`}
     >
       <div>
         <h1 className="text-4xl leading-10 tracking-widest text-center text-gray-400 mt-14 lg:mt-10">Her kommer snart Hjertetings nettbutikk</h1>
